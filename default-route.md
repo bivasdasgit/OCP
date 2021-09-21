@@ -15,3 +15,7 @@ docker push $HOST/<namespace>/<image_name>:<tag>
 oc describe is/<resources>
 ./build.sh -t che-devfile-registy:7.20.0 --rhel
 ```
+```
+oc clusterinfo 
+oc login -u kubeadmin https://api.salutes.cp.fyre.ibm.com:6443
+```
