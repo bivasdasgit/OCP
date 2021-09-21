@@ -19,3 +19,9 @@ oc describe is/<resources>
 oc clusterinfo 
 oc login -u kubeadmin https://api.salutes.cp.fyre.ibm.com:6443
 ```
+```
+git logs
+git format-patch -1 <commit_no>
+git diff >FileName.patch
+git push -f origin HEAD:v7.13.0
+```
